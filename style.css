@@ -1,0 +1,48 @@
+
+body {
+    background-color: #00f7ff;/* Warna gelap */
+    font-family: sans-serif;
+}
+
+.wadah-hp {
+    background-color: #e668df;
+    max-width: 350px; /* Kunci ukuran HP */
+    margin: 50px auto; /* Ketengah layar */
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.foto-bulat {
+    width: 100px;
+    border-radius: 50px; /* Membutat foto melingkar sempurna */
+    border: 3px solid #00ffcc; /* Garis pinggir warna neon */
+    }
+
+.nama-akun {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.bio-singkat {
+    color: #aaaaaa;
+}
+
+.tombol-link {
+    display: block; /* Agar tombol turun ke bawah, tidak sejajar */
+    background-color: azure;
+    color: rgb(124, 233, 234);
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 25px; /* Bentuk pil membulat */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tombol-link:hover{
+    background-color: #00f7ff;/* Berubah warna saat disentuh */
+    color: #e668df;
+    transform: scale(1.05);/* Membesar 5% */
+
+}
